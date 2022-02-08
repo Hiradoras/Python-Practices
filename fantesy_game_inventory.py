@@ -13,7 +13,7 @@ displayInventory(inventory)
 
 
 
-def addToInventory(inventory, added_items):
+def addToInventory(inventory : dict, added_items : list):
     set_added_items = set(added_items)
     items = list(inventory.keys())
     for i in set_added_items:
